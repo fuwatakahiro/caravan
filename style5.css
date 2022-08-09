@@ -1,8 +1,65 @@
-.position{
-position:absolute;
-  right:40px;
-  top:100px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.fab {
-  font-size:32px;
+header {
+  height:50px;
+  background-color:#ff9a4b;
+}
+main{
+  width:960px;
+  margin:50px auto;
+  display:flex;
+}
+span{
+  color:white;
+  background-color:#ff9a4b;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.article{
+  width:300px;
+  background-color:#eeeeee;
+  margin-right:30px;
+  padding:10px;
+  position: relative;
+}
+.article-image-1 {
+  height:150px;
+  /*width:300px;*/
+  background-image:url(img/flow01.png);
+  background-size:cover;
+  background-position:bottom;
+  /*margin:10px 10px 15px 10px;*/
+}
+.arcticle-text {
+ margin-top:5px;
+}
+.article-image-2 {
+  height:150px;
+  /*width:300px;*/
+  background-image:url(img/flow02.png);
+  background-size:cover;
+  background-position:bottom;
+  /*margin:10px 10px 15px 10px;*/
+}
+.article-image-3 {
+  height:150px;
+  /*width:300px;*/
+  background-image:url(img/flow03.png);
+  background-size:cover;
+  background-position:bottom;
+  /*margin:10px 10px 15px 10px;*/
+}
+.article:last-child{
+  margin-right:0;
+}
+.article-header {
+  margin:15px 0 5px;
+}
+footer{
+  background-color:#aaaaaa;
+  height:50px;
 }
